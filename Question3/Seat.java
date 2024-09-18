@@ -1,14 +1,14 @@
 package Question3;
 
 public class Seat {
-    private final String seatNumber;
+    private final int seatNumber;
     private boolean reserved = false;
 
-    public Seat(String seatNumber) {
+    public Seat(int seatNumber) {
         this.seatNumber = seatNumber;
     }
 
-    public String getSeatNumber() {
+    public int getSeatNumber() {
         return seatNumber;
     }
 
@@ -44,5 +44,5 @@ public class Seat {
         }
     }
     
-    
+
 }
